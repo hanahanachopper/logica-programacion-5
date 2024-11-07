@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+input {
+    font-size: 1.1em;
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    font-size: 1.1em;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #8b4caf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #585b5e;
+}
+
+#messages {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
